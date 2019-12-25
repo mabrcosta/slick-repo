@@ -78,7 +78,7 @@ object Build extends Build {
         testOptions in SqlServerTest := Seq(Tests.Filter(sqlServerFilter)),
 
         publishMavenStyle := true,
-        organization:= "com.byteslounge",
+        organization:= "com.mabrcosta",
         pomIncludeRepository := { _ => false },
         publishArtifact in Test := false,
         publishTo := {
